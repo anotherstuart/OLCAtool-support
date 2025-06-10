@@ -1,0 +1,139 @@
+File generated in OLCATool
+
+net
+{
+    node_size = (150 150);
+}
+
+node IDIDIDIDID7dyohvzsk2
+{
+    label = "Intervention_1";
+    position = (2848 891);
+    states = ("Effective", "Ineffective");
+}
+
+node IDIDIDIDIDzipljga9al
+{
+    label = "Intervention_2";
+    position = (2791 311);
+    states = ("Effective", "Ineffective");
+}
+
+node IDIDIDIDID28rzniotu6
+{
+    label = "Intervention_3";
+    position = (3481 841);
+    states = ("Effective", "Ineffective");
+}
+
+node IDIDIDIDID8cfey740ez
+{
+    label = "Intervention_4";
+    position = (3714 520);
+    states = ("Effective", "Ineffective");
+}
+
+node IDIDIDIDIDk04toc636w
+{
+    label = "Plurality_of_interests/views";
+    position = (2819 686);
+    states = ("Enhanced", "Limited");
+}
+
+node IDIDIDIDIDp0y7nyrmur
+{
+    label = "Evidence_Base";
+    position = (3251 709);
+    states = ("Enhanced", "Limited");
+}
+
+node IDIDIDIDIDkmavzh5bwk
+{
+    label = "Platforms_for_dialogue";
+    position = (2995 486);
+    states = ("Operatingeffectively", "Operatingpoorly");
+}
+
+node IDIDIDIDIDdxbr0sdbfq
+{
+    label = "Joint_management_model";
+    position = (3079 211);
+    states = ("Agreed", "Contested");
+}
+
+node IDIDIDIDID2kynae8bn0
+{
+    label = "Sustainable,_fair_management_mechanism";
+    position = (3146 -59);
+    states = ("Inplace", "Contested");
+}
+
+node IDIDIDIDIDgsywp0li2z
+{
+    label = "Sustainable_investment_opportunities";
+    position = (3490 207);
+    states = ("Developed", "Contested");
+}
+
+node IDIDIDIDIDsrm08ea0v2
+{
+    label = "Opportunities_for_benefit_sharing";
+    position = (3304 396);
+    states = ("Accepted", "Contested");
+}
+
+potential (IDIDIDIDID7dyohvzsk2 | )
+{
+    data = (0.5 0.5 );
+}
+
+potential (IDIDIDIDIDzipljga9al | )
+{
+    data = (0.5 0.5 );
+}
+
+potential (IDIDIDIDID28rzniotu6 | )
+{
+    data = (0.5 0.5 );
+}
+
+potential (IDIDIDIDID8cfey740ez | )
+{
+    data = (0.5 0.5 );
+}
+
+potential (IDIDIDIDIDk04toc636w | IDIDIDIDID7dyohvzsk2 )
+{
+    data = ((0.65 0.35) (0.25 0.75));
+}
+
+potential (IDIDIDIDIDp0y7nyrmur | IDIDIDIDID28rzniotu6 )
+{
+    data = ((0.85 0.15) (0.4 0.6));
+}
+
+potential (IDIDIDIDIDkmavzh5bwk | IDIDIDIDIDk04toc636w IDIDIDIDIDp0y7nyrmur )
+{
+    data = (((0.92 0.08) (0.4 0.6)) ((0.35 0.65) (0.2 0.8)));
+}
+
+potential (IDIDIDIDIDdxbr0sdbfq | IDIDIDIDIDzipljga9al IDIDIDIDIDkmavzh5bwk )
+{
+    data = (((0.2 0.8) (0.65 0.35)) ((0.5 0.5) (0.05 0.95)));
+}
+
+potential (IDIDIDIDID2kynae8bn0 | IDIDIDIDIDgsywp0li2z IDIDIDIDIDdxbr0sdbfq )
+{
+    data = (((0.75 0.25) (0.4 0.6)) ((0.4 0.6) (0.2 0.8)));
+}
+
+potential (IDIDIDIDIDgsywp0li2z | IDIDIDIDID8cfey740ez IDIDIDIDIDsrm08ea0v2 )
+{
+    data = (((0.9 0.1) (0.4 0.6)) ((0.7 0.3) (0.2 0.8)));
+}
+
+potential (IDIDIDIDIDsrm08ea0v2 | IDIDIDIDIDkmavzh5bwk IDIDIDIDIDp0y7nyrmur )
+{
+    data = (((0.75 0.25) (0.5 0.5)) ((0.5 0.5) (0.1 0.9)));
+}
+
