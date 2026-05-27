@@ -1,8 +1,8 @@
 # OLCAtool-support
 Documentation, support and example files for the online OLCA tool
 
-Example files in the main repository
+Example files can be found here, in the main repository.
 
-Documentation in the wiki <./OLCAtool-wiki.md>
+Documentation using markdown format is in the wiki [OLCAtool-wiki.md] (./OLCAtool-wiki.md) and you can propose changes and ask quesitons in issues - or if you are an experienced user of github you can submit changes.
 
-Support in the issues forum
+OLCAtool support will be delivered in the issues forum.
